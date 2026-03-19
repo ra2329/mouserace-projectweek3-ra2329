@@ -1,4 +1,3 @@
-# mouserace-projectweek3-ra2329
 # EE22005 Mouse Race Project 
 
 # Project Overview
