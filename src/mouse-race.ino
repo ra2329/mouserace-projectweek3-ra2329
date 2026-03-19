@@ -28,8 +28,10 @@ void loop() {
   analogRead(LSensor);
   LSignal = analogRead(LSensor);
 
-  if (RSignal < 140) RSignal = 0;
-  if (LSignal < 140) LSignal = 0;
+
+  if (RSignal < 130) RSignal = 0;
+  if (LSignal < 130) LSignal = 0;
+
 
   float error = RSignal - LSignal; // detecting difference in two sensors
   float correction = SteeringS * error; // choosing the correction ammount
